@@ -157,7 +157,7 @@ st.markdown("""
 
 # Set the path to the tesseract executable
 pytesseract.pytesseract.tesseract_cmd = 'tesseract_ocr/tesseract.exe'
-sentiment_model = joblib.load('model/bow.joblib')
+sentiment_model = joblib.load('model/twitter_sentiment_model_LR.joblib')
 le_sentiment = joblib.load('model\label_encoder_LR.joblib')
 bow = joblib.load('model\\bow.joblib')
 
